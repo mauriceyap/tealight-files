@@ -6,7 +6,7 @@ colors = ["black", "yellow"]
 revColors = ["black", "yellow"]
 
 
-
+n=1
 
 while n < 50:
  for i in range(0,4):
