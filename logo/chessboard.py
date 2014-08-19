@@ -8,7 +8,7 @@ revColors = ["black", "yellow"]
 
 n=1
 
-while n < 10:
+while n < 50:
  for i in range(0,4):
   color (colors [0])
   move (50)
