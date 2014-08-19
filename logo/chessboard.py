@@ -28,3 +28,4 @@ while n < 10:
  turn (270)
  move (1)
  turn (270)
+ n=n+1
