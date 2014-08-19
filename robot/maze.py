@@ -10,12 +10,12 @@ for i in range (0,10):
  if touch() == 'fruit':
   move()
 
-if touch() == 'wall':
-  turn(1)
+ if touch() == 'wall':
+   turn(1)
   for i in range (0,10):
-    move()
-    
-if touch() == 'wall':
- turn(-1)
- for i in range (0,20):
    move()
+ if touch() == 'wall':
+   turn(-1)
+  for i in range (0,10):
+   move()   
+
