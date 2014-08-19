@@ -19,7 +19,7 @@ for i in range(0,4):
 turn (90)
 move (1)
 
-for i in the range(0,4):
+for j in the range(0,4):
  color (revColors [0])
  move (50)
  color (revColors [1])
