@@ -2,6 +2,6 @@ from tealight.logo import (move,
                            turn, 
                            color)
 
-colors = ["red", "yellow"]
+colors = ["black", "yellow"]
+color ("black")
 move (100)
-color ("red")
