@@ -11,7 +11,7 @@ for i in range (0,1250):
  if touch() == None and left_side() == 'wall':
    move()
     
- if touch() == None and left_side() == None:
+ if left_side() == None:
    turn (-1)
    
       
