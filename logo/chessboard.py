@@ -6,7 +6,7 @@ colors = ["black", "yellow"]
 
 
 color ("black")
-move (i)
+move (50)
 color ("yellow")
 move (50)
 
