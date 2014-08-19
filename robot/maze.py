@@ -11,8 +11,8 @@ for i in range (0,100):
   move()
   turn(1)
  if left_side() == 'None':
-  turn(-1)
-  move()
+   turn(-1)
+   move()
 
 
 
