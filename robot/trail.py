@@ -18,5 +18,5 @@ if touch() == 'wall':
     
 if touch() == 'wall':
  turn(-1)
-  for i in range (11,20):
+ for i in range (11,20):
    move()
