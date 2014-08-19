@@ -6,7 +6,7 @@ colors = ["black", "yellow"]
 
 i=0
 
-for i in range(0,4)
+for i in range(0,4):
 
 color ("black")
 move (50)
