@@ -1,4 +1,4 @@
-from tealight.logo import move, turn, colors
+from tealight.logo import (move, turn, colors)
 
 colors = ["red", "green", "blue"]
 
