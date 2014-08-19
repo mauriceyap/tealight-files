@@ -10,6 +10,9 @@ for i in range (0,100):
  if left_side() == 'wall':
    move()
    
- if touch() == 'wall':
-   turn(1)
+ if touch() == 'wall', left_side() == 'None':
+   turn(-1)
+      
+ if touch() == 'wall', left_side() == 'None':
+    turn(-1)
 
