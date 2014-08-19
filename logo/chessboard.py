@@ -4,37 +4,9 @@ from tealight.logo import (move,
 
 colors = ["black", "yellow"]
 
-color ("black")
-move (50)
-color ("yellow")
-move (50)
+for i in range(0,8):
 
 color ("black")
 move (50)
 color ("yellow")
-move (50)
-
-color ("black")
-move (50)
-color ("yellow")
-move (50)
-
-color ("black")
-move (50)
-color ("yellow")
-move (50)
-
-turn(90)
-move(1)
-
-turn (90)
-
-color ("yellow")
-move (50)
-color ("black")
-move (50)
-
-color ("yellow")
-move (50)
-color ("black")
 move (50)
