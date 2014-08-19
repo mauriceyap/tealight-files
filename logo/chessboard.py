@@ -5,6 +5,7 @@ from tealight.logo import (move,
 colors = ["black", "yellow"]
 
 for i in range (0,8):
+  
 color ("black")
 move (50)
 color ("yellow")
