@@ -6,5 +6,5 @@ from tealight.robot import (move,
                             left_side, 
                             right_side)
 
-move (4)
+move 4
 smell
