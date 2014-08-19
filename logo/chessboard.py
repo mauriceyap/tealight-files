@@ -25,6 +25,6 @@ while n < 50:
   color (colors [0])
   move (50)
   
- turn (90)
+ turn (270)
  move (1)
- turn (90)
+ turn (270)
