@@ -7,7 +7,7 @@ from tealight.robot import (move,
                             right_side)
 
 n=1
-for n in range (0,100)
+for n in range (0,10)
  if touch() == 'fruit':
   move()
   n=n+1
