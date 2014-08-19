@@ -13,8 +13,10 @@ for i in range (0,100):
  if touch() == 'wall':
   turn(1)
   for i in range (0,100):
-    move()
+   move()
   turn(1)
   for i in range (0,100):
-    move() 
+   move() 
+  for i in range (0,100):
+   move()
 
