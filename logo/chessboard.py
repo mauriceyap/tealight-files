@@ -9,5 +9,3 @@ for i in range(0,200):
   move (50)
   color ("yellow")
   move (50)
-
-
