@@ -11,11 +11,9 @@ for i in range (0,10):
   move()
 
  if touch() == 'wall':
-   turn(1)
-  for i in range (0,10):
-   move()
+  turn(1)
+  move()
  if touch() == 'wall':
-   turn(-1)
-  for i in range (0,10):
-   move()   
+  turn(-1)
+  move()   
 
