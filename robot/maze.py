@@ -15,7 +15,7 @@ for i in range (0,1250):
    turn (-1)
    
       
- if touch() == 'wall' 
+
  if touch() == 'wall' and left_side() == 'wall' and right_side() == 'wall':
     turn (2)
 
