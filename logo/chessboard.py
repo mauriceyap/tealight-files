@@ -18,6 +18,7 @@ for i in range(0,4):
   
 turn (90)
 move (1)
+turn (90)
 
 for i in range(0,4):
  color (revColors [0])
