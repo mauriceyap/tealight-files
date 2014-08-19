@@ -7,4 +7,4 @@ from tealight.robot import (move,
                             right_side)
 
 if touch() ==None:
-  move
+  move()
