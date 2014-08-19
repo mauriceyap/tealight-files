@@ -11,5 +11,5 @@ turn (1)
 move (3)
 turn (1)
 move (7)
-turn (-)
+turn (-1
 move (6)
