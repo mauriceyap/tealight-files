@@ -4,4 +4,4 @@ from tealight.logo import (move,
 
 colors = ["black", "yellow"]
 move (100)
-color ("black")
+color ("red")
