@@ -6,6 +6,8 @@ colors = ["black", "yellow"]
 
 for i in range(0,200):
   color ("black")
-move (50)
-color ("yellow")
-move (50)
+  move (50)
+  color ("yellow")
+  move (50)
+
+
