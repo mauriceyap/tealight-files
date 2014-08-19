@@ -3,6 +3,9 @@ from tealight.logo import (move,
                            color)
 
 colors = ["black", "yellow"]
+revColors = ["black", "yellow"]
+
+
 
 
 
@@ -10,5 +13,5 @@ colors = ["black", "yellow"]
 for i in range(0,4):
  color (colors [0])
  move (50)
- color ("yellow")
+ color (colors [0])
  move (50) 
