@@ -2,7 +2,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from math import sin, cos, pi
 
-def ellipse(x, y, c, sizeX, sizeY spines):
+def ellipse(x, y, c, sizex, sizey, spines):
   
   color(c)
   
