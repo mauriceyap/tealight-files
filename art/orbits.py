@@ -6,6 +6,7 @@ vx = 0
 vy = 0
 ax = 0
 ay = 0
+parity = ((abs(vx + ax))/(vx + ax))
 
 power = 0.3
 
