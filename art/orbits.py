@@ -39,8 +39,8 @@ def handle_frame():
   spot(x,y,8)
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
-  if vy > 2:
-    vy =2
+  if vy > 5:
+    vy =5
   
   x = x + vx
   y = y + vy
