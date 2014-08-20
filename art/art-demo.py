@@ -7,7 +7,7 @@ print "This is art mode!"
 print screen_width
 print screen_height
 
-background("misc/girl.png")
+image("misc/girl.png")
 
 line(0,0,screen_width, screen_height)
 
