@@ -16,6 +16,6 @@ def ellipse(x, y, c, size, spines):
     
     angle = angle + (2 * pi / spines)
 
-ellipse(300, 300, "blue", 100, 0)
-ellipse(600, 400, "purple", 200, 0)
-ellipse(450, 200, "orange", 125, 0)
+ellipse(300, 300, "blue", 100, 2)
+ellipse(600, 400, "purple", 200, 2)
+ellipse(450, 200, "orange", 125, 2)
