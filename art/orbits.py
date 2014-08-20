@@ -47,5 +47,5 @@ def handle_frame():
   color("blue")
   
   spot(x,y,8)
-  parity((abs(vx + ax))/(vx + ax))
+  #parity((abs(vx + ax))/(vx + ax))
   
