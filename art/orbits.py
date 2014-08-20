@@ -57,4 +57,4 @@ def handle_frame():
 
 background("paper.jpg")
 
-line(0,0,screen_width, screen_height)
+line(0,0,0, screen_height)
