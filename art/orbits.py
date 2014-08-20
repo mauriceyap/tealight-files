@@ -6,7 +6,7 @@ vx = 0
 vy = 0
 ax = 0
 ay = 0
-parity = ((abs(vx + ax))/(vx + ax))
+# parity = ((abs(vx + ax))/(vx + ax))
 
 power = 0.3
 
@@ -15,7 +15,7 @@ def handle_keydown(key):
   
 
   if key == "left":
-    ax = -power
+    ax = -power*0.9
   elif key == "right":
     ax = power
   elif key == "up":
@@ -37,7 +37,8 @@ def handle_frame():
   color("white")
   
   spot(x,y,8)
-  vx = (abs(vx + ax)-0.2)*parity
+  #vx = (abs(vx + ax)-0.2)*parity
+  vx = vx+ax
   vy = vy + ay +0.12
   
   x = x + vx
