@@ -40,7 +40,7 @@ def handle_frame():
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
   if vy > 0.00002:
-    vy ==0.000002
+    vy =0.000002
   
   x = x + vx
   y = y + vy
