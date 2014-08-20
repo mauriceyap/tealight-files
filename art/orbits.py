@@ -39,10 +39,12 @@ def handle_frame():
   spot(x,y,8)
   vx = (vx+ax)*0.97
   vy = vy + ay +0.12
+  if vy >=1:
+    vy==1
   
   x = x + vx
   y = y + vy
-  if y >= 500:
+  if y >= 600:
     vy=ay-4
   
   color("blue")
