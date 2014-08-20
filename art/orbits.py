@@ -38,7 +38,7 @@ def handle_frame():
   
   spot(x,y,8)
   #vx = (abs(vx + ax)-0.2)*parity
-  vx = vx+ax
+  vx = vx+ax +0.12
   vy = vy + ay +0.12
   
   x = x + vx
