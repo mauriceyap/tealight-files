@@ -1,4 +1,5 @@
 from tealight.art import (color, line, spot, circle, box, image, text, background)
+from tealight.art import (screen_width, screen_height)
 
 x = 600
 y = 400
@@ -53,6 +54,7 @@ def handle_frame():
   
   spot(x,y,8)
 
-  
-  
-  
+
+background("paper.jpg")
+
+line(0,0,screen_width, screen_height)
