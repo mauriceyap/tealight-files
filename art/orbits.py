@@ -50,7 +50,7 @@ def handle_frame():
   if y >= 800:
     vy=-1*abs(0.9*vy)
     if y>805:
-      y-805
+      y=805
   
   color("blue")
   
