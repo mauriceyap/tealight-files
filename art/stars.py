@@ -6,13 +6,15 @@ def ellipse(x, y, c, sizex, sizey, spines):
   
   color(c)
   
-  angle = 0
+
   
-  
-    x= (sizex * cos(angle))
-    y= + (sizey * sin(angle))
+  for i in range(0, spines):
+    x0 = x + (sizex * cos(angle))
+    y0 = y + (sizey * sin(angle))
     
+    line(x, y, x0, y0)
     
+   
 
 ellipse(300, 300, "blue", 100, 50, 3)
 ellipse(600, 400, "purple", 200,50, 3)
