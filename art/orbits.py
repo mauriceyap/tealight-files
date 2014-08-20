@@ -10,6 +10,8 @@ ay = 0
 
 power = 0.3
 
+line
+
 def handle_keydown(key):
   global ax, ay
   
