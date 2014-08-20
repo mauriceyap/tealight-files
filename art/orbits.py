@@ -42,7 +42,7 @@ def handle_frame():
   
   x = x + vx
   y = y + vy
-  if y = 600:
+  if y == 600:
     vy=0
   
   color("blue")
