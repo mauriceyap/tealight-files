@@ -9,8 +9,8 @@ def ellipse(x, y, c, size, spines):
   angle = 0
   
   for i in range(0, spines):
-    x0 = x + (size * cos(angle))
-    y0 = y + (size * sin(angle))
+    x0 = x+2 + (size * cos(angle))
+    y0 = y+2 + (size * sin(angle))
     
     line(x, y, x0, y0)
     
