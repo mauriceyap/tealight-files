@@ -6,7 +6,7 @@ def ellipse(x, y, c, sizex, sizey, spines):
   
   color(c)
   
-
+  angle = 0
   
   for i in range(0, spines):
     x0 = x + (sizex * cos(angle))
@@ -14,7 +14,7 @@ def ellipse(x, y, c, sizex, sizey, spines):
     
     line(x, y, x0, y0)
     
-   
+    angle = angle + 1
 
 ellipse(300, 300, "blue", 100, 50, 3)
 ellipse(600, 400, "purple", 200,50, 3)
