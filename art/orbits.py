@@ -40,6 +40,7 @@ def handle_frame():
   #vx = (abs(vx + ax)-0.2)*parity
   vx = vx+ax
   vy = vy + ay +0.12
+  #vy = vy + ay +0.12
   
   x = x + vx
   y = y + vy
