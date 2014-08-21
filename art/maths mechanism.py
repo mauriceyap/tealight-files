@@ -14,6 +14,7 @@ boardArray =[[0,0,0,0,0,0,0,0],
 
 row = 0
 col = 0
+j=1
 
 for i in range (0,8):
   for j in range (0,3):
