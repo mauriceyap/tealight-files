@@ -29,3 +29,5 @@ if winnerRed == 1:
   print 'Red is the winner'
 if winnerYellow == 1:
   print 'Yellow is the winner'
+
+#End Winner Cheecker
