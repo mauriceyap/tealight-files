@@ -27,7 +27,8 @@ for i in range (0,5):
   col=0
   row = row+1
 
-
+row = 0
+col = 0
 #horizontals
 for i in range (0,5):
   for i in range (0,8):
