@@ -28,6 +28,17 @@ for i in range (0,5):
   row = row+1
 
 
+#horizontals
+for i in range (0,5):
+  for i in range (0,8):
+    if boardArray [row][col] ==boardArray [row][col+1]==boardArray [row][col+2]==boardArray [row][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row][col+1]==boardArray [row][col+2]==boardArray [row][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+  row=0
+col=col+1
 
 
 
