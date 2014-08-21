@@ -25,6 +25,8 @@ for i in range (0,5):
       winnerYellow = 1
     col = col + 1
   col=0
+  row = row+1
+
 
 
 
