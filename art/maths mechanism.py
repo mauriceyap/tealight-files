@@ -2,6 +2,9 @@ winnerRed=0
 winnerYellow=0
 reset=0
 
+rowSelYellow=9
+colSelYellow=9
+
 rowSelRed=0
 colSelRed=0
 rowSelRed=0
