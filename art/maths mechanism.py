@@ -12,10 +12,10 @@ boardArray [3][1] ='r'
 row = 3
 col = 1
 
-if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==r:
+if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]=='r':
   winnerRed = 1
 
-if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==y:
+if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]=='y':
   winnerYellow = 1
   
 if winnerRed == 1:
