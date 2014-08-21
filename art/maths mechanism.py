@@ -12,6 +12,9 @@ boardArray [3][1] ='y'
 row = 3
 col = 1
 
+winnerRed=0
+winnerYellow=0
+
 if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]=='r':
   winnerRed = 1
 
