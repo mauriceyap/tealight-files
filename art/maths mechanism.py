@@ -12,16 +12,18 @@ boardArray =[[0,0,0,0,0,0,0,0],
 
 
 
-row = 1
+row = 0
 col = 0
 
-for i in range (0,8):
+while row < 4:
+  for i in range (0,8):
     if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==1:
       winnerRed = 1
 
     if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==2:
       winnerYellow = 1
     col = col + 1
+  row=row+1
 
   
 if winnerRed == 1:
