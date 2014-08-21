@@ -12,7 +12,7 @@ boardArray =[[0,0,0,1,0,0,0,0],
 
 
 #winnerchecker
-row = 0
+row = 1
 col = 0
 
 #verticals
