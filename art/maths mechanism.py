@@ -18,7 +18,7 @@ if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==b
 if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==y:
   winnerYellow = 1
   
-if winnerRed = 1:
+if winnerRed == 1:
   print 'Red is the winner'
-if winnerYellow = 1:
+if winnerYellow == 1:
   print 'Yellow is the winner'
