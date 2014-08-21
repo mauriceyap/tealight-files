@@ -25,7 +25,7 @@ for i in range (0,8):
     col = col + 1
 
 
-  
+#declaration  
 if winnerRed == 1:
   print 'Red is the winner'
 if winnerYellow == 1:
