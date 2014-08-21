@@ -7,4 +7,4 @@ boardArray =[[44,22,1,1,1,1,1,1],
              [1,1,1,1,1,1,1,1],
              [1,1,1,1,1,1,1,1]]
 boardArray [0][0]=43
-print boardArray [0][0]
+print boardArray
