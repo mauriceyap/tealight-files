@@ -337,6 +337,268 @@ for i in range (0,1):
       winnerYellow = 1
     row = row + 1
 
+#2diag neg
+
+row=0
+col=4
+
+for i in range (0,1):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=1
+col=4
+
+for i in range (0,2):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=4
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=4
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=3
+col=4
+
+for i in range (0,4):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=4
+col=4
+
+for i in range (0,5):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=0
+col=3
+
+for i in range (0,1):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=1
+col=3
+
+for i in range (0,2):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=3
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=3
+col=3
+
+for i in range (0,4):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=4
+col=3
+
+for i in range (0,5):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=0
+col=2
+
+for i in range (0,1):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=1
+col=2
+
+for i in range (0,2):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=2
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=3
+col=2
+
+for i in range (0,4):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=4
+col=2
+
+for i in range (0,5):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=0
+col=1
+
+for i in range (0,1):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=1
+col=1
+
+for i in range (0,2):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=1
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=3
+col=1
+
+for i in range (0,4):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=4
+col=1
+
+for i in range (0,5):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=0
+col=0
+
+for i in range (0,1):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=1
+col=0
+
+for i in range (0,2):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=2
+col=0
+
+for i in range (0,3):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=3
+col=0
+
+for i in range (0,4):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
+row=4
+col=0
+
+for i in range (0,5):
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==1:
+      winnerRed = 1
+
+    if boardArray [row][col] ==boardArray [row+1][col+1]==boardArray [row+2][col+2]==boardArray [row+3][col+3]==2:
+      winnerYellow = 1
+    row = row + 1
 
   
 
