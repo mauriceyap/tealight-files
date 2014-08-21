@@ -12,4 +12,5 @@ print boardArray
 row = 1
 col = 1
 
-print boardArray [row][col]
+if boardArray [row][col] ==9:
+  print 'winner'
