@@ -43,6 +43,7 @@ for i in range (0,5):
 
 row = 0
 col = 0
+
 #horizontals
 for i in range (0,5):
   for i in range (0,8):
@@ -53,7 +54,7 @@ for i in range (0,5):
       winnerYellow = 1
     row = row + 1
   row=0
-col=col+1
+  col=col+1
 
 
 
