@@ -44,12 +44,6 @@ for i in range (0,64):
     boardArray [rowSelRed][colSelRed]=1
    if button == "right" and turn ==1:
     boardArray [rowSelYellow][colSelYellow]=2 
-  rowSelRed=0
-  colSelRed=1
-  rowSelRed=0
-  colSelRed=2
-  rowSelRed=0
-  colSelRed=3
   
 
   
