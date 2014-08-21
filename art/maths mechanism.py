@@ -56,6 +56,9 @@ for i in range (0,5):
   row=0
   col=col+1
 
+row = 0
+col = 0
+
 
 
 #declaration  
