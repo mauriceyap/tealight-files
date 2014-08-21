@@ -3,7 +3,7 @@ winnerYellow=0
 reset=0
 
 #Resetting Mechanism
-if reset =1:
+if reset ==1:
  boardArray =[[0,0,0,0,0,0,0,0],
              [0,0,0,0,0,0,0,0],
              [0,0,0,0,0,0,0,0],
