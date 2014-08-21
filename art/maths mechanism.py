@@ -12,7 +12,7 @@ boardArray =[[0,0,0,0,0,0,0,0],
 
 
 
-row = 0
+row = 1
 col = 0
 
 for i in range (0,8):
