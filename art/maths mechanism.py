@@ -71,7 +71,7 @@ for i in range (0,5):
 
     if boardArray [row][col] ==boardArray [row-1][col+1]==boardArray [row-2][col+2]==boardArray [row-3][col+3]==2:
       winnerYellow = 1
-
+    row = row + 1
   
 row=4
 col=0
