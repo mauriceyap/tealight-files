@@ -22,6 +22,7 @@ for i in range (0,7):
   if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==2:
     winnerYellow = 1
   row = row + 1
+  i=i+1
   
 if winnerRed == 1:
   print 'Red is the winner'
