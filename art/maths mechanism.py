@@ -318,7 +318,7 @@ for i in range (0,3):
 row=6	
 col=4
 
-for i in range (0,4):
+for i in range (0,2):
     if boardArray [row][col] ==boardArray [row-1][col+1]==boardArray [row-2][col+2]==boardArray [row-3][col+3]==1:
       winnerRed = 1
 
