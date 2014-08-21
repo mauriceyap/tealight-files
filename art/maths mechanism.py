@@ -40,7 +40,6 @@ boardArray =[[0,0,0,0,0,0,0,0],
 #1inserter
 for i in range (0,64):
   def handle_mousedown(x,y,button):
-  global turn 
   if button == "left":
     boardArray [rowSelRed][colSelRed]=1
   if button == "right":
