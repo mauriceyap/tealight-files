@@ -11,7 +11,7 @@ boardArray =[[0,0,0,0,0,0,0,0],
              [1,0,0,0,0,0,0,0]]
 
 
-
+#winnerchecker
 row = 0
 col = 0
 
