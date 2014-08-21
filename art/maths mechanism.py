@@ -30,15 +30,14 @@ for i in range (0,5):
 #horizontals
 for i in range (0,5):
   for i in range (0,8):
-    if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==1:
+    if boardArray [col][row] ==boardArray [col +1][row]==boardArray [col +2][row]==boardArray [col+3][row]==1:
       winnerRed = 1
 
-    if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==2:
+    if boardArray [col][row] ==boardArray [col +1][row]==boardArray [col +2][row]==boardArray [col+3][row]==2:
       winnerYellow = 1
-    col = col + 1
-  col=0
-  row = row+1
-
+    row = row + 1
+  row=0
+  col = col+1
 
 
 #declaration  
