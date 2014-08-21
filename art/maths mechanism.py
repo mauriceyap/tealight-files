@@ -2,6 +2,15 @@ winnerRed=0
 winnerYellow=0
 reset=0
 
+rowSelRed=0
+colSelRed=0
+rowSelRed=0
+colSelRed=1
+rowSelRed=0
+colSelRed=2
+rowSelRed=0
+colSelRed=3
+
 #1Resetting Mechanism
 if reset ==1:
  boardArray=[[0,0,0,0,0,0,0,0],
@@ -16,18 +25,27 @@ if reset ==1:
 #1The board
 
 boardArray =[[0,0,0,0,0,0,0,0],
-             [0,1,0,0,0,0,0,1],
-             [0,0,1,0,0,0,0,0],
-             [0,0,0,1,0,0,0,0],
-             [0,0,0,0,1,2,2,2],
              [0,0,0,0,0,0,0,0],
-             [0,0,1,0,0,2,0,0],
-             [0,0,0,0,2,0,0,0]]
+             [0,0,0,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0],
+             [0,0,0,0,0,0,0,0]] 
 
 
+#1inserter
+for i in range (0,64):
+  boardArray [rowSelRed][colSelRed]=1
+  boardArray [rowSelYellow][colSelYellow]=2 
+  
+
+  
 #1winnerchecker
 row = 0
 col = 0
+
+
 
 #2verticals
 for i in range (0,5):
@@ -606,4 +624,4 @@ if winnerRed == 1:
 if winnerYellow == 1:
   print 'Yellow is the winner'
 
-#End Winner Cheecker
+#End Winner Checker
