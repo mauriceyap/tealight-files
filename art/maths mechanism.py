@@ -39,8 +39,12 @@ boardArray =[[0,0,0,0,0,0,0,0],
 
 #1inserter
 for i in range (0,64):
-  boardArray [rowSelRed][colSelRed]=1
-  boardArray [rowSelYellow][colSelYellow]=2 
+  def handle_mousedown(x,y,button):
+  global turn 
+  if button == "left":
+    boardArray [rowSelRed][colSelRed]=1
+  if button == "right":
+    boardArray [rowSelYellow][colSelYellow]=2 
   
 
   
