@@ -16,7 +16,7 @@ row = 0
 col = 0
 
 #verticals
-for i in range (0,4):
+for i in range (0,5):
   for i in range (0,8):
     if boardArray [row][col] ==boardArray [row +1][col]==boardArray [row +2][col]==boardArray [row+3][col]==1:
       winnerRed = 1
