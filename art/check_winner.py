@@ -1,3 +1,4 @@
+from tealight.art import *
 def check_winner(boardArray):
   global winnerRed, winnerYellow
   
