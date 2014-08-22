@@ -631,3 +631,19 @@ if winnerYellow == 1:
   print 'Yellow is the winner'
 
 #End Winner Checker
+
+#delete
+
+color("red")
+spot(445,500,150)
+
+color("black")
+text(390,480,"Red Wins!!!")
+image(310,490,"misc/WhiteBalloon.png")
+image(325,400,"misc/BlackBalloon.png")
+image(375,360,"misc/BlueBalloon.png")
+image(450,360,"misc/GreenBalloon.png")
+image(375,540,"misc/OrangeBalloon.png")
+image(450,540,"misc/PinkBalloon.png")
+image(510,400,"misc/RedBalloon.png")
+image(510,510,"misc/YellowBalloon.png")
