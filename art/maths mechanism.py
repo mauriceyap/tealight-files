@@ -4,6 +4,7 @@ from tealight.art import (color, line, spot, circle, box, image, text, backgroun
 
 from tealight.net import connect, send
 
+from github.mauriceyap.art.check_winner import check_winner
 
 winnerRed=0
 winnerYellow=0
@@ -11,6 +12,7 @@ reset=0
 
 rowSelYellow=9
 colSelYellow=9
+
 
 
 #1Resetting Mechanism
@@ -45,7 +47,7 @@ for i in range (0,64):
     boardArray [rowSelYellow][colSelYellow]=2 
   
 
-
+check_winner(boardArray)
 
 #delete
 
