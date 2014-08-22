@@ -1,3 +1,8 @@
+#ALL FILES ARE HERE:
+#http://mauriceyap.co.uk/connectfour/
+#username: sutton
+#password: sutton
+
 from tealight.art import *
 def check_winner(boardArray):
   global winnerRed, winnerYellow
