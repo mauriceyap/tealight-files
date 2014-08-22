@@ -18,7 +18,7 @@ boardArray =[[0,0,0,0,0,0,0,0],
              [2,1,1,1,2,1,2,2]] 
 turn=1
 
-print range(9,0)
+print range(9,0,-1)
 #def drop_counter(col,turn):
 #  for i in range (0,8):
     
