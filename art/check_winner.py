@@ -603,7 +603,7 @@ def check_winner(boardArray):
     print 'Yellow is the winner'
     color("yellow")
     spot(445,500,150)
-    circle (445,500,170)
+
   
     color("black")
     text(390,480,"Yellow Wins!!!")
