@@ -1,5 +1,9 @@
 def check_winner(boardArray):
   global winnerRed, winnerYellow
+  
+  winnerRed=0
+  winnerYellow=0
+
   #1winnerchecker
   row = 0
   col = 0
@@ -580,7 +584,10 @@ def check_winner(boardArray):
   #2declaration  
   if winnerRed == 1:
     print 'Red is the winner'
+    return "red"
   if winnerYellow == 1:
     print 'Yellow is the winner'
+    return "yellow"
   
+  return None
   #End Winner Checker
