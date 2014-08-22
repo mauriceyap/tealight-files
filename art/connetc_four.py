@@ -1,3 +1,9 @@
+#ALL FILES ARE HERE:
+#http://mauriceyap.co.uk/connectfour/
+#username: sutton
+#password: sutton
+
+
 from tealight.art import (color, line, spot, circle, box, image, text, background)
 
 from github.mauriceyap.art.maths_mechanism import *
