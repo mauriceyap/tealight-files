@@ -1,5 +1,5 @@
 def check_winner(boardArray):
-  global winnerRed, winnerYellow
+  global winnerRed, winnerYellow, boardArray
   
   winnerRed=0
   winnerYellow=0
