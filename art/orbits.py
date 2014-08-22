@@ -29,9 +29,9 @@ def handle_keydown(key):
 def handle_keyup(key):
   global ax, ay
 
-  if key == "left" or key == "right":
+  if key == "a" or key == "d":
     ax = 0
-  elif key == "up" or key == "down":
+  elif key == "w" or key == "s":
     ay = 0
     
 def handle_frame():
