@@ -44,7 +44,7 @@ if check_winner =="red":
 	image(510,400,"misc/RedBalloon.png")
 	image(510,510,"misc/YellowBalloon.png")
 
-if check_winner =="red":
+if check_winner(boardArray) =="red":
 	color("yellow")
 	spot(445,500,150)
 	circle (445,500,170)
