@@ -29,6 +29,3 @@ turn=1
 
 print check_winner(boardArray)
 
-
-if __name__ == "__main__":
-  if check_winner
