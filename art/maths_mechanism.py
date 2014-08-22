@@ -21,7 +21,7 @@ turn=1
 def drop_counter(col,turn):
   for i in range (7,0,-1):
     print boardArray [i][col]
-
+drop_counter (2,1)
 ##1inserter
 #for i in range (0,64):
 #  def handle_mousedown(x,y,button):
