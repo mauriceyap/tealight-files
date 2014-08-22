@@ -23,13 +23,5 @@ def drop_counter(col,turn):
     if boardArray [i][col]==0:
       boardArray [i][col] = turn
       return
-##1inserter
-#for i in range (0,64):
-#  def handle_mousedown(x,y,button):
-#   if button == "left" and turn ==1:
-#    boardArray [x][y]=1
-#   if button == "left" and turn ==2:
-#    boardArray [rowSelYellow][colSelYellow]=2 
-  
 
 print check_winner(boardArray)
