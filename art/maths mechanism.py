@@ -45,7 +45,7 @@ for i in range (0,64):
     boardArray [rowSelYellow][colSelYellow]=2 
   
 
-check_winner(boardArray)
+print check_winner(boardArray)
 
 #delete
 
