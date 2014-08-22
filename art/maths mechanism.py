@@ -6,8 +6,6 @@ from tealight.net import connect, send
 
 from github.mauriceyap.art.check_winner import check_winner
 
-winnerRed=0
-winnerYellow=0
 reset=0
 
 rowSelYellow=9
