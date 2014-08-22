@@ -1,3 +1,9 @@
+#ALL FILES ARE HERE:
+#http://mauriceyap.co.uk/connectfour/
+#username: sutton
+#password: sutton
+
+
 #head
 
 from tealight.art import (color, line, spot, circle, box, image, text, background)
