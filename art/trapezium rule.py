@@ -9,3 +9,4 @@ for i in range(1,n):
 t=(h/2)*(c+d+e)
 f=2**0.5
 print d
+print e
