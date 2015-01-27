@@ -1,3 +1,8 @@
+input (a,b,n)
 def trapeziumRule(a,b,n):
   h=(b-a)/n
-  s=((1+a^3)^0.5)+((1+b^3)^0.5)
+  t=((1+a^3)^0.5)+((1+b^3)^0.5)
+  for i in range (1,n):
+    t += 2*((1+(a+(i*h))^3)^0.5)
+  return (h/2)*t
+print trapeziumRule
