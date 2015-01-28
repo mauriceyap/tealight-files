@@ -12,3 +12,4 @@ t=half*v
 f=2**0.5
 print t
 print h
+x=((0.4)**2)
