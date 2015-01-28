@@ -8,9 +8,7 @@ def trapRule(a,b,n):
   t=(h/2.0)*v
   return t*4
 
-
-for x in xrange(12):
-  print 'T',(2**x),'=',trapRule(0.0,1,(2**x))
+  
   
 def midOrdRule(a,b,n):
   h=(b-a)/n
@@ -23,6 +21,7 @@ def midOrdRule(a,b,n):
 
 for x in xrange(12):
   print 'M',(2**x),'=',midOrdRule(0.0,1,(2**x))
+  print 'T',(2**x),'=',trapRule(0.0,1,(2**x))
     
  
  
