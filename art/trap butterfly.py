@@ -1,4 +1,4 @@
-def trapeziumRule(a,b,n)
+def trapeziumRule(a,b,n):
   h=(b-a)/n
   v= (( (a**2)-(a**6) )**(1/6.0)) + (( (b**2)-(b**6) )**(1/6.0))
   for i in range(1,n):
