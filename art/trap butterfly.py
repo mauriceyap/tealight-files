@@ -25,7 +25,7 @@ def midOrd(a,b,n):
 for x in xrange(10):
   print 'T',(2**x),'=',trap(0.0,1,(2**x))
 for x in xrange(10):
-  print 'T',(2**y),'=',trap(0.0,1,(2**y))
+  print 'T',(2**x),'=',trap(0.0,1,(2**x))
     
  
  
