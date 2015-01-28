@@ -9,4 +9,4 @@ for i in range(1,n):
 t=(h/2.0)*v
 trap=t*4
 print 'trap rule',t
-print trap
+print 'total area',trap
