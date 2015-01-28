@@ -7,4 +7,4 @@ def trapRule(a,b,n):
   t=(h/2.0)*v
   return t*4
 for x in xrange(10):
-  print trapRule(0.0,1,(2**x))
+  print 'T',(2**x),'='trapRule(0.0,1,(2**x))
