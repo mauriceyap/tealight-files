@@ -13,5 +13,5 @@ half=(h/2.0)
 t=half*v
 f=2**0.5
 
-x=math.pow(27,1/3)
+x=math.pow(27,0.33333333)
 print x
