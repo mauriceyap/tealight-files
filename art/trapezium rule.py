@@ -9,4 +9,4 @@ def trapeziumRule(a,b,n):
   t=(h/2)*v
   f=2**0.5
   return t
-print trapeziumRule(0,1,10)
+print trapeziumRule(0,1,1024)
