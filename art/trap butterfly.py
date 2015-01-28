@@ -9,5 +9,5 @@ def trapRule(a,b,n):
   return t*4
 
 
-for x in xrange(15):
+for x in xrange(12):
   print 'T',(2**x),'=',trapRule(0.0,1,(2**x))
