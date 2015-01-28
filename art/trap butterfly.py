@@ -11,3 +11,13 @@ def trapRule(a,b,n):
 
 for x in xrange(12):
   print 'T',(2**x),'=',trapRule(0.0,1,(2**x))
+  
+def midOrdRule(a,b,n):
+  h=(b-a)/n
+  for i in range(1,n):
+    v +=(( ((a+(((2*i)-1)h/2))**2)-((a+(((2*i)-1)h/2))**6) )**(1/6.0)
+    
+    m=h*v
+
+for x in xrange(12):
+  print 'M',(2**x),'=',midOrdRule(0.0,1,(2**x))
