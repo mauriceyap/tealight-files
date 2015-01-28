@@ -8,7 +8,7 @@ def trap(a,b,n):
      v += 2*  ( (u**2)-(u**6) )**(1/6.0)
         
   t=(h/2.0)*v
-  return t*4
+  return t
 
   
 #Mid ordinate rule  
