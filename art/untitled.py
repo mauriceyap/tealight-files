@@ -1,3 +1,5 @@
+import math
+
 a=0.0
 b=1
 n=10
@@ -11,5 +13,5 @@ half=(h/2.0)
 t=half*v
 f=2**0.5
 
-x=((0.4)**(1/6))
+x=math.pow(0.4,(1/3))
 print x
