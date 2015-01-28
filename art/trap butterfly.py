@@ -1,4 +1,4 @@
-#TrapeziumRule
+#Trapezium rule
 def trapRule(a,b,n):
   h=(b-a)/n
   v= (( (a**2)-(a**6) )**(1/6.0)) + (( (b**2)-(b**6) )**(1/6.0))
@@ -11,7 +11,7 @@ def trapRule(a,b,n):
   return t*4
 
   
-  
+#Mid ordinate rule  
 def midOrdRule(a,b,n):
   h=(b-a)/n
   v=0.0
