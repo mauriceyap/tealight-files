@@ -28,6 +28,6 @@ for x in xrange(p):
 for x in xrange(p):
   print 'T',(2**x),'=',trap(0.0,1,(2**x))
 for x in xrange(p):
-  print 'S',(2**(x-1)),'=',   ((2*(midOrd(0.0,1,(2**x)))+(trap(0.0,1,(2**x))))/3)
+  print 'S',(2**(x+1)),'=',   ((2*(midOrd(0.0,1,(2**x)))+(trap(0.0,1,(2**x))))/3)
  
  
