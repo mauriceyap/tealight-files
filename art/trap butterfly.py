@@ -1,3 +1,4 @@
+p=5
 #Trapezium rule
 def trap(a,b,n):
   h=(b-a)/n
@@ -22,9 +23,9 @@ def midOrd(a,b,n):
   return v*h
 
 #Output
-for x in xrange(5):
+for x in xrange(p):
   print 'M',(2**x),'=',midOrd(0.0,1,(2**x))
-for x in xrange(5):
+for x in xrange(p):
   print 'T',(2**x),'=',trap(0.0,1,(2**x))
     
  
