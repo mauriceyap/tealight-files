@@ -21,6 +21,7 @@ def midOrdRule(a,b,n):
     v += (( (u**2)-(u**6) )**(1/6.0))
   return v*h*4
 
+#Output
 for x in xrange(12):
   print 'M',(2**x),'=',midOrdRule(0.0,1,(2**x))
   print 'T',(2**x),'=',trapRule(0.0,1,(2**x))
