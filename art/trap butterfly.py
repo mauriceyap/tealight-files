@@ -15,6 +15,7 @@ for x in xrange(12):
 def midOrdRule(a,b,n):
   h=(b-a)/n
   v=0.0
+  u=0
   for i in range(1,n):
     u=(   a+ (((2*i)-1)(h/2.0))   )
     v += (( (u**2)-(u**6) )**(1/6.0))
