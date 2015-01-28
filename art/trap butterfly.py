@@ -6,4 +6,4 @@ def trapRule(a,b,n):
         
   t=(h/2.0)*v
   return t*4
-print trapRule(1,0,1024)
+print trapRule(0.0,1,1024)
