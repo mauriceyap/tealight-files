@@ -22,7 +22,7 @@ def midOrd(a,b,n):
   return v*h
 
 #Output
-for x in xrange(6):
+for x in xrange(10):
   print 'M',(2**x),'=',midOrd(0.0,1,(2**x))
   print 'T',(2**x),'=',trap(0.0,1,(2**x))
     
