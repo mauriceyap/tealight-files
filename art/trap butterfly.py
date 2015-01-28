@@ -19,7 +19,7 @@ def midOrdRule(a,b,n):
   for i in range(1,n-1):
     u=(a+ (((2.0*i)-1.0)(h/2.0)))
     v += (( (u**2)-(u**6) )**(1/6.0))
-  return i
+  return u
 
 for x in xrange(12):
   print 'M',(2**x),'=',midOrdRule(0.0,1,(2**x))
