@@ -8,5 +8,5 @@ def trapeziumRule(a,b,n):
      v += 2*((1+(a+(i*h))**3)**0.5)
   t=(h/2)*v
   f=2**0.5
-  return t
-print t
+  return trap
+print trap
