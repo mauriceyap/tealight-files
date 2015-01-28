@@ -18,7 +18,7 @@ def midOrdRule(a,b,n):
     u=(   a+ (((2*j)-1)(h/2))   )
     v += (( (u**2)-(u**6) )**(1/6.0)
     
-  return (h*v)
+  return h*v
 
 for x in xrange(12):
   print 'M',(2**x),'=',midOrdRule(0.0,1,(2**x))
