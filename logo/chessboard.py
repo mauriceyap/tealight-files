@@ -5,5 +5,9 @@ def isPrime (n):
   i = 2
   if n > math.sqrt(n):
     print "True"
-  elif n 
+  elif n % i = 0:
+    print "False"
+  else:
+    i = i + 1
+    isPrime (n)
     
