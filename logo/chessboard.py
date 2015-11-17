@@ -1,7 +1,7 @@
 import math
 n = 4
 
-def isPrime (n):
+def isPrime(n):
   i = 2
   if n > math.sqrt(n):
     print "True"
@@ -10,4 +10,6 @@ def isPrime (n):
   else:
     i = i + 1
     isPrime (n)
+    
+print (isPrime(67))
     
