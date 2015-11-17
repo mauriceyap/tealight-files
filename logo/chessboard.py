@@ -1,5 +1,4 @@
 import math
-n = 4
 
 def isPrime(n):
   i = 2
