@@ -3,7 +3,7 @@ import math
 def isPrime(n):
   i = 2
   if n > math.sqrt(n):
-    print "True"
+    print "POO"
   elif n % i == 0:
     print "False"
   else:
