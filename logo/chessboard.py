@@ -10,5 +10,5 @@ def isPrime(n):
     i = i + 1
     isPrime (n)
     
-print (isPrime(76))
+print (isPrime(31))
     
